@@ -5,8 +5,7 @@ from .model_conf import ModelConf
 
 class ModelCore(torch.nn.Module):
     
-    #def __init__(self, conf):
-    def __init__(self, conf_file):
+    def __init__(self):
         super(ModelCore, self).__init__()
 
         # load conf and dict
